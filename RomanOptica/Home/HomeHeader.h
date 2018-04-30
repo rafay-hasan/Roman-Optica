@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  HomeHeader.h
 //  RomanOptica
 //
-//  Created by Rafay Hasan on 4/29/18.
+//  Created by Rafay Hasan on 4/30/18.
 //  Copyright © 2018 Rafay Hasan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HomeHeader : UIView
 
 @end
-

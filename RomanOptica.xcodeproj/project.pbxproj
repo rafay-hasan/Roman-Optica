@@ -7,27 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		766E1C598C9D355165279F23 /* libPods-RomanOptica.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CC0F2BB55E91E23023AB5A /* libPods-RomanOptica.a */; };
 		BB226B6920961F180040D21B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB226B6820961F180040D21B /* AppDelegate.m */; };
-		BB226B6C20961F180040D21B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB226B6B20961F180040D21B /* ViewController.m */; };
 		BB226B6F20961F180040D21B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB226B6D20961F180040D21B /* Main.storyboard */; };
 		BB226B7220961F180040D21B /* RomanOptica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB226B7020961F180040D21B /* RomanOptica.xcdatamodeld */; };
 		BB226B7420961F180040D21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB226B7320961F180040D21B /* Assets.xcassets */; };
 		BB226B7720961F180040D21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB226B7520961F180040D21B /* LaunchScreen.storyboard */; };
 		BB226B7A20961F180040D21B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB226B7920961F180040D21B /* main.m */; };
+		BB226B9120961F8F0040D21B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB226B9020961F8F0040D21B /* MainViewController.m */; };
+		BB226B942096214D0040D21B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB226B932096214D0040D21B /* HomeViewController.m */; };
+		BB226B97209623600040D21B /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB226B96209623600040D21B /* LeftViewController.m */; };
+		BB226B9A209623700040D21B /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB226B99209623700040D21B /* RightViewController.m */; };
+		BB226B9F209626410040D21B /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB226B9E209626410040D21B /* ItemTableViewCell.m */; };
+		BB226BA320962B5E0040D21B /* DetailsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB226BA220962B5E0040D21B /* DetailsWebViewController.m */; };
+		BB5CD09C2096E2160063E7AC /* HomeHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5CD09B2096E2160063E7AC /* HomeHeader.xib */; };
+		BB5CD09F2096E25E0063E7AC /* HomeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5CD09E2096E25E0063E7AC /* HomeHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42CC0F2BB55E91E23023AB5A /* libPods-RomanOptica.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RomanOptica.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD5384BB77E527E91E03B10 /* Pods-RomanOptica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanOptica.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomanOptica/Pods-RomanOptica.debug.xcconfig"; sourceTree = "<group>"; };
 		BB226B6420961F180040D21B /* RomanOptica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanOptica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB226B6720961F180040D21B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB226B6820961F180040D21B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BB226B6A20961F180040D21B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BB226B6B20961F180040D21B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BB226B6E20961F180040D21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB226B7120961F180040D21B /* RomanOptica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RomanOptica.xcdatamodel; sourceTree = "<group>"; };
 		BB226B7320961F180040D21B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB226B7620961F180040D21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB226B7820961F180040D21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB226B7920961F180040D21B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB226B8F20961F8F0040D21B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BB226B9020961F8F0040D21B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BB226B922096214D0040D21B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BB226B932096214D0040D21B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BB226B95209623600040D21B /* LeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		BB226B96209623600040D21B /* LeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		BB226B98209623700040D21B /* RightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		BB226B99209623700040D21B /* RightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		BB226B9D209626410040D21B /* ItemTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemTableViewCell.h; sourceTree = "<group>"; };
+		BB226B9E209626410040D21B /* ItemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemTableViewCell.m; sourceTree = "<group>"; };
+		BB226BA120962B5E0040D21B /* DetailsWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsWebViewController.h; sourceTree = "<group>"; };
+		BB226BA220962B5E0040D21B /* DetailsWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsWebViewController.m; sourceTree = "<group>"; };
+		BB5CD09B2096E2160063E7AC /* HomeHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeader.xib; sourceTree = "<group>"; };
+		BB5CD09D2096E25E0063E7AC /* HomeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeHeader.h; sourceTree = "<group>"; };
+		BB5CD09E2096E25E0063E7AC /* HomeHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeHeader.m; sourceTree = "<group>"; };
+		E2063642534B7465C3D515A1 /* Pods-RomanOptica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanOptica.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanOptica/Pods-RomanOptica.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766E1C598C9D355165279F23 /* libPods-RomanOptica.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82AF612CA5C83379DB2D92A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42CC0F2BB55E91E23023AB5A /* libPods-RomanOptica.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA0D597109D1CC9D6029EB3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FD5384BB77E527E91E03B10 /* Pods-RomanOptica.debug.xcconfig */,
+				E2063642534B7465C3D515A1 /* Pods-RomanOptica.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BB226B5B20961F180040D21B = {
 			isa = PBXGroup;
 			children = (
 				BB226B6620961F180040D21B /* RomanOptica */,
 				BB226B6520961F180040D21B /* Products */,
+				BA0D597109D1CC9D6029EB3B /* Pods */,
+				82AF612CA5C83379DB2D92A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +106,11 @@
 			children = (
 				BB226B6720961F180040D21B /* AppDelegate.h */,
 				BB226B6820961F180040D21B /* AppDelegate.m */,
-				BB226B6A20961F180040D21B /* ViewController.h */,
-				BB226B6B20961F180040D21B /* ViewController.m */,
+				BB226B9B2096254D0040D21B /* LGSlide Menu */,
+				BB226B9C209625700040D21B /* Home */,
+				BB226BA020962B3C0040D21B /* Details */,
 				BB226B6D20961F180040D21B /* Main.storyboard */,
+				BB5CD09B2096E2160063E7AC /* HomeHeader.xib */,
 				BB226B7320961F180040D21B /* Assets.xcassets */,
 				BB226B7520961F180040D21B /* LaunchScreen.storyboard */,
 				BB226B7820961F180040D21B /* Info.plist */,
@@ -74,6 +120,41 @@
 			path = RomanOptica;
 			sourceTree = "<group>";
 		};
+		BB226B9B2096254D0040D21B /* LGSlide Menu */ = {
+			isa = PBXGroup;
+			children = (
+				BB226B8F20961F8F0040D21B /* MainViewController.h */,
+				BB226B9020961F8F0040D21B /* MainViewController.m */,
+				BB226B95209623600040D21B /* LeftViewController.h */,
+				BB226B96209623600040D21B /* LeftViewController.m */,
+				BB226B98209623700040D21B /* RightViewController.h */,
+				BB226B99209623700040D21B /* RightViewController.m */,
+			);
+			path = "LGSlide Menu";
+			sourceTree = "<group>";
+		};
+		BB226B9C209625700040D21B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB226B922096214D0040D21B /* HomeViewController.h */,
+				BB226B932096214D0040D21B /* HomeViewController.m */,
+				BB226B9D209626410040D21B /* ItemTableViewCell.h */,
+				BB226B9E209626410040D21B /* ItemTableViewCell.m */,
+				BB5CD09D2096E25E0063E7AC /* HomeHeader.h */,
+				BB5CD09E2096E25E0063E7AC /* HomeHeader.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BB226BA020962B3C0040D21B /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				BB226BA120962B5E0040D21B /* DetailsWebViewController.h */,
+				BB226BA220962B5E0040D21B /* DetailsWebViewController.m */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB226B7D20961F180040D21B /* Build configuration list for PBXNativeTarget "RomanOptica" */;
 			buildPhases = (
+				173428FE7E97317605B1BE58 /* [CP] Check Pods Manifest.lock */,
 				BB226B6020961F180040D21B /* Sources */,
 				BB226B6120961F180040D21B /* Frameworks */,
 				BB226B6220961F180040D21B /* Resources */,
+				D8858C170B60D106954EC1C1 /* [CP] Embed Pods Frameworks */,
+				985A506CA820052C4208BC90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,7 +189,7 @@
 				TargetAttributes = {
 					BB226B6320961F180040D21B = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -133,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB226B7720961F180040D21B /* LaunchScreen.storyboard in Resources */,
+				BB5CD09C2096E2160063E7AC /* HomeHeader.xib in Resources */,
 				BB226B7420961F180040D21B /* Assets.xcassets in Resources */,
 				BB226B6F20961F180040D21B /* Main.storyboard in Resources */,
 			);
@@ -140,15 +225,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		173428FE7E97317605B1BE58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		985A506CA820052C4208BC90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanOptica/Pods-RomanOptica-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8858C170B60D106954EC1C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanOptica/Pods-RomanOptica-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB226B6020961F180040D21B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB226B6C20961F180040D21B /* ViewController.m in Sources */,
+				BB226B9F209626410040D21B /* ItemTableViewCell.m in Sources */,
 				BB226B7220961F180040D21B /* RomanOptica.xcdatamodeld in Sources */,
+				BB226BA320962B5E0040D21B /* DetailsWebViewController.m in Sources */,
 				BB226B7A20961F180040D21B /* main.m in Sources */,
+				BB226B9120961F8F0040D21B /* MainViewController.m in Sources */,
+				BB5CD09F2096E25E0063E7AC /* HomeHeader.m in Sources */,
+				BB226B97209623600040D21B /* LeftViewController.m in Sources */,
+				BB226B9A209623700040D21B /* RightViewController.m in Sources */,
 				BB226B6920961F180040D21B /* AppDelegate.m in Sources */,
+				BB226B942096214D0040D21B /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,26 +419,34 @@
 		};
 		BB226B7E20961F180040D21B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD5384BB77E527E91E03B10 /* Pods-RomanOptica.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RomanOptica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Rafay.RomanOptica;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		BB226B7F20961F180040D21B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2063642534B7465C3D515A1 /* Pods-RomanOptica.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RomanOptica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Rafay.RomanOptica;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
